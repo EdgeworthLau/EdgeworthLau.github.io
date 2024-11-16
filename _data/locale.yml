@@ -1,7 +1,7 @@
 # @start locale config
 ## => English
 ########################
-en: &EN
+en:
   SUBSCRIBE               : "Subscribe"
   READMORE                : "Read more"
   SEARCH                  : "Search"
@@ -23,7 +23,7 @@ en: &EN
 
 ## => Simplified Chinese
 ########################
-zh-Hans: &ZH_HANS
+zh-Hans:
   SUBSCRIBE               : "订阅"
   READMORE                : "阅读更多"
   SEARCH                  : "搜索"
