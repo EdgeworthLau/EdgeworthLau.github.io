@@ -48,7 +48,6 @@
     color: $text-color-l;
     @include split-line(left, 4px, $border-color);
     p {
-      font-size: 14px;
       margin: map-get($spacers, 2) 0;
     }
     & > :last-child {
@@ -73,7 +72,6 @@
     }
   }
   code {
-    font-size: 14px;
     padding: map-get($spacers, 1) map-get($spacers, 2);
     background-color: $text-background-color;
     border-radius: map-get($base, border-radius);
