@@ -25,7 +25,13 @@ code {
 
 .page__main .col-aside>aside {
   position: absolute;
-  width: 0px;
+  width: 0;
   overflow: hidden
+}
+
+.has-aside .col-aside {
+  position: relative;
+  display: block;
+  width: 0
 }
 /* end custom scss snippet */
